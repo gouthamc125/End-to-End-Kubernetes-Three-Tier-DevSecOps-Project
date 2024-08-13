@@ -3,7 +3,7 @@ terraform {
     bucket         = "my-eks-3-tier-bucket-1"
     region         = "us-east-1"
     key            = "End-to-End-Kubernetes-Three-Tier-DevSecOps-Project/Jenkins-Server-TF/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
+    dynamodb_table = "Local-files"
     encrypt        = true
   }
   required_version = ">=0.13.0"
